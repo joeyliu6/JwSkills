@@ -63,17 +63,19 @@ LLM 默认**贪心解码**——每次挑最可能的下一个 token，首次输
 
 ## 为你的项目定制
 
-[SKILL.md](SKILL.md) 的 Round 3 规范表是**通用模板**，建议按你的项目替换成具体约束：
+### 推荐方式：一键定制
 
-```markdown
-| 维度 | 检查项 |
-|------|--------|
-| **函数** | ≤20 行，参数 >3 个必须用对象 |
-| **样式** | 禁止硬编码颜色，必须用 var(--primary-alpha-10) |
-| **类型** | 禁止 any，必须完整 TypeScript 类型 |
+安装技能后运行一次：
+
+```
+/init-skills
 ```
 
-规则越具体，Round 3 越有威力。真实项目案例见 [../../examples/picnexus-triple-check.md](../../examples/picnexus-triple-check.md)。
+AI 会自动扫描项目技术栈，生成 `project-config.md`，包含 Round 3 的项目专属检查规则。详见 [init-skills README](../init-skills/README.md)。
+
+### 手动方式
+
+也可以直接在技能目录下创建 `project-config.md`，写入你的项目特有规则。格式参考 `/init-skills` 生成的模板。真实项目案例见 [../../examples/picnexus-triple-check.md](../../examples/picnexus-triple-check.md)。
 
 ## 成本权衡
 
