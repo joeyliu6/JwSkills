@@ -47,11 +47,11 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 AI 响应：
 
 ```
-🎖 已召唤：
-   · Dieter Rams 十诫（克制、功能优先）
-   · 原研哉的"白"（留白即力量）
-   · [避雷] 不要硅谷独角兽 landing page 风
-开始执行...
+> ◈ 召唤阵
+>
+> ✦ Dieter Rams 十诫 — 克制、功能优先
+> ✦ 原研哉的"白" — 留白即力量
+> ◇ 不要硅谷独角兽 landing page 风 — 避免紫渐变白大字套路
 ```
 
 其他命令：
