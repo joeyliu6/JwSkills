@@ -14,6 +14,8 @@
 
 **[`kaihui`](skills/kaihui/)**：工作流编排器。把"该从哪些角度、用什么工具、按什么顺序处理问题"的经验固化成可复用的 workflow 模板，逐步评判推进。
 
+**[`code-simplifier`](skills/code-simplifier/)**：代码简化器。聚焦"让代码更易读，同时一个行为都不变"。核心价值不在于教 AI 怎么简化（它已经会），而在于告诉它什么不能动——防御性代码、有意重复、隐式契约。
+
 ---
 
 ## Skill 清单
@@ -26,6 +28,7 @@
 | `plan-before-code` | `/plan-before-code <任务>` | 先设计后编码，三阶段审核 · [设计理念](docs/plan-before-code-design-rationale.md) |
 | `kaihui` | `/kaihui <任务>` | 工作流编排器，串联技能和视角 · [设计理念](docs/kaihui-design-rationale.md) |
 | `init-skills` | `/init-skills` | 一键定制所有技能，扫描技术栈生成专属规则 |
+| `code-simplifier` | `/code-simplifier` | 代码简化器，保功能砍冗余防过度抽象 |
 | `create-skill` | `/create-skill` | 引导式创建新 skill，采访 + 生成 + 哲学自检 |
 
 ---
@@ -79,6 +82,7 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 /kaihui 帮我评审这个需求            # 工作流编排，多角度分析
 /kaihui --list                    # 查看所有 workflow 模板
 /init-skills                      # 一键定制所有技能
+/code-simplifier                  # 简化最近修改的代码
 /create-skill                     # 创建新 skill
 ```
 
@@ -114,6 +118,7 @@ JwSkills/
 │   ├── code-review/
 │   ├── plan-before-code/
 │   ├── kaihui/
+│   ├── code-simplifier/
 │   ├── init-skills/
 │   └── create-skill/
 ├── docs/                   # 设计理念与参考文档

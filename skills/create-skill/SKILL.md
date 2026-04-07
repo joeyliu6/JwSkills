@@ -48,6 +48,8 @@ disable-model-invocation: true
 
 **诚实判断**：如果采访过程中发现用户想要的东西 AI 已经知道（Q4 答不出"AI 做不到的部分"），直接告诉用户："也许一句提示就够了，不一定需要完整 skill。" 不要为了创建而创建。
 
+**提前退出**：如果判定不需要 skill，给出替代建议（一句提示词 / 一条 CLAUDE.md 规则 / 一个已有 skill），流程到此结束，不进入 Phase 2。
+
 ---
 
 ### Phase 2：生成（Draft Generation）
