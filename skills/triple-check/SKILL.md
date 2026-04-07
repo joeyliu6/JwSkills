@@ -154,10 +154,13 @@ description: 三遍自纠模式。高复杂度任务的审慎工作流：按需�
 
 ## 与其他 skill 的配合
 
+- **`/plan-before-code`**：plan-before-code 是**写代码前**的系统设计（架构 + 流程 + 边界）；triple-check 是**写代码时**的审慎实现——**设计 + 实现双保险**
 - **`/code-review`**：triple-check 是**写代码时**的审慎（三轮反思）；code-review 是**写完后**的同行审查
 - **`/summon`**：先用 summon 定方向，再用 triple-check 实现——方向 + 质量双保险
 
-**最佳实践**：复杂任务先拆分，每个子任务用 `/triple-check` 实现。
+**完整链条**：`/summon` → `/plan-before-code` → `/triple-check`（逐模块）→ `/code-review`
+
+**最佳实践**：复杂任务先用 `/plan-before-code` 做设计，再按实现计划逐模块用 `/triple-check` 实现。
 
 ---
 
