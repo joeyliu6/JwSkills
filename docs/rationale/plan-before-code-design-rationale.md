@@ -145,6 +145,6 @@ plan-before-code 的设计文档输出包含实现计划（模块顺序 + 依赖
 
 ## 相关文件
 
-- Skill 实现：[`skills/plan-before-code/SKILL.md`](../skills/plan-before-code/SKILL.md)
-- 配套实现工作流：[`skills/triple-check/SKILL.md`](../skills/triple-check/SKILL.md)
-- Skill 设计哲学：[`docs/skill-design-philosophy.md`](./skill-design-philosophy.md)
+- Skill 实现：[`skills/plan-before-code/SKILL.md`](../../skills/plan-before-code/SKILL.md)
+- 配套实现工作流：[`skills/triple-check/SKILL.md`](../../skills/triple-check/SKILL.md)
+- Skill 设计哲学：[`docs/guides/skill-design-philosophy.md`](../guides/skill-design-philosophy.md)

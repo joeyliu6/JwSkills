@@ -1,7 +1,7 @@
 # 哲学自检表
 
 > Phase 3 专用。对照生成的 SKILL.md 草稿逐项检查。
-> 来源：`docs/skill-design-philosophy.md` 的浓缩版。
+> 来源：`docs/guides/skill-design-philosophy.md` 的浓缩版。
 
 ---
 

@@ -65,7 +65,7 @@
 
 ## 20 个精选召唤词（MVP 版本）
 
-按场景分为 5 组。具体元数据见 [`skills/summon/dictionary.md`](../skills/summon/dictionary.md)。
+按场景分为 5 组。具体元数据见 [`skills/summon/dictionary.md`](../../skills/summon/dictionary.md)。
 
 ### 🎯 决策与思考（通用底层）
 
@@ -104,7 +104,7 @@
 
 ### 🚫 7 条避雷区
 
-详见 [`skills/summon/avoid-list.md`](../skills/summon/avoid-list.md)。
+详见 [`skills/summon/avoid-list.md`](../../skills/summon/avoid-list.md)。
 
 ---
 
@@ -214,7 +214,7 @@ AI 自动挑选并宣告：
 
 ## 相关文件
 
-- **Skill 主文件**：[`skills/summon/SKILL.md`](../skills/summon/SKILL.md)
-- **完整词典**：[`skills/summon/dictionary.md`](../skills/summon/dictionary.md)
-- **避雷区**：[`skills/summon/avoid-list.md`](../skills/summon/avoid-list.md)
-- **效果测试**：[`tests/summon-eval/`](../tests/summon-eval/)
+- **Skill 主文件**：[`skills/summon/SKILL.md`](../../skills/summon/SKILL.md)
+- **完整词典**：[`skills/summon/dictionary.md`](../../skills/summon/dictionary.md)
+- **避雷区**：[`skills/summon/avoid-list.md`](../../skills/summon/avoid-list.md)
+- **效果测试**：[`tests/summon-eval/`](../../tests/summon-eval/)

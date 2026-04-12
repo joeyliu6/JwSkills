@@ -139,6 +139,6 @@ LLM 默认采用**贪心解码**——每次生成挑最可能的下一个 token
 
 ## 相关文件
 
-- Skill 实现：[`skills/triple-check/SKILL.md`](../skills/triple-check/SKILL.md)
+- Skill 实现：[`skills/triple-check/SKILL.md`](../../skills/triple-check/SKILL.md)
 - 配套工作流：verification skill（写之后的证据 — 实际运行验证）
 - 深度探索工作流：ultrawork skill（干到完的模式）

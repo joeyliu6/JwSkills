@@ -88,4 +88,4 @@ AI 会自动挑出匹配的召唤词并宣告：
 
 ## 深入了解
 
-完整设计理念见 [../../docs/summon-design-rationale.md](../../docs/summon-design-rationale.md)（Polanyi 默会知识、语义压缩、为什么反面召唤词比正面更重要）。
+完整设计理念见 [../../docs/rationale/summon-design-rationale.md](../../docs/rationale/summon-design-rationale.md)（Polanyi 默会知识、语义压缩、为什么反面召唤词比正面更重要）。

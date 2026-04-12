@@ -92,4 +92,4 @@ AI 会自动扫描项目技术栈，生成 `project-config.md`，包含 Round 3 
 
 ## 深入了解
 
-完整设计理念见 [../../docs/triple-check-design-rationale.md](../../docs/triple-check-design-rationale.md)（贪心解码原理、为什么是三遍不是其他、与资深工程师内心独白的映射）。
+完整设计理念见 [../../docs/rationale/triple-check-design-rationale.md](../../docs/rationale/triple-check-design-rationale.md)（贪心解码原理、为什么是三遍不是其他、与资深工程师内心独白的映射）。

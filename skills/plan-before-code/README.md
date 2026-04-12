@@ -51,4 +51,4 @@ AI 默认行为是拿到需求就开始写——一个文件写到底，只走 h
 
 ## 设计理念
 
-详见 [`docs/plan-before-code-design-rationale.md`](../../docs/plan-before-code-design-rationale.md)。
+详见 [`docs/rationale/plan-before-code-design-rationale.md`](../../docs/rationale/plan-before-code-design-rationale.md)。
