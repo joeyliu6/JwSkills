@@ -22,11 +22,11 @@
 
 | Skill | 触发 | 说明 |
 |-------|------|------|
-| `summon` | `/summon <需求>` | 召唤词词典，用思想名词定方向 · [设计理念](docs/summon-design-rationale.md) |
-| `triple-check` | `/triple-check <任务>` | 三遍自纠，高质量实现 · [设计理念](docs/triple-check-design-rationale.md) |
+| `summon` | `/summon <需求>` | 召唤词词典，用思想名词定方向 · [设计理念](docs/rationale/summon-design-rationale.md) |
+| `triple-check` | `/triple-check <任务>` | 三遍自纠，高质量实现 · [设计理念](docs/rationale/triple-check-design-rationale.md) |
 | `code-review` | `/code-review` | 系统代码审查，高信噪比 PR review |
-| `plan-before-code` | `/plan-before-code <任务>` | 先设计后编码，三阶段审核 · [设计理念](docs/plan-before-code-design-rationale.md) |
-| `kaihui` | `/kaihui <任务>` | 工作流编排器，串联技能和视角 · [设计理念](docs/kaihui-design-rationale.md) |
+| `plan-before-code` | `/plan-before-code <任务>` | 先设计后编码，三阶段审核 · [设计理念](docs/rationale/plan-before-code-design-rationale.md) |
+| `kaihui` | `/kaihui <任务>` | 工作流编排器，串联技能和视角 · [设计理念](docs/rationale/kaihui-design-rationale.md) |
 | `init-skills` | `/init-skills` | 一键定制所有技能，扫描技术栈生成专属规则 |
 | `code-simplifier` | `/code-simplifier` | 代码简化器，保功能砍冗余防过度抽象 |
 | `create-skill` | `/create-skill` | 引导式创建新 skill，采访 + 生成 + 哲学自检 |
@@ -104,7 +104,7 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 
 > 好的 Skill = 方向 + AI 自身能力。不要把 Skill 当规范手册来写。
 
-详见 [Skill 设计哲学](docs/skill-design-philosophy.md)。编写新 skill 时也可参考 [Claude 官方 Skill 编写指南](docs/claude-official-skill-guide.md)。
+详见 [Skill 设计哲学](docs/guides/skill-design-philosophy.md)。编写新 skill 时也可参考 [Claude 官方 Skill 编写指南](docs/guides/claude-official-skill-guide.md)。
 
 ---
 
@@ -122,12 +122,16 @@ JwSkills/
 │   ├── init-skills/
 │   └── create-skill/
 ├── docs/                   # 设计理念与参考文档
-│   ├── skill-design-philosophy.md
-│   ├── claude-official-skill-guide.md
-│   ├── summon-design-rationale.md
-│   ├── triple-check-design-rationale.md
-│   ├── plan-before-code-design-rationale.md
-│   └── kaihui-design-rationale.md
+│   ├── guides/             # 通用指南
+│   │   ├── skill-design-philosophy.md
+│   │   └── claude-official-skill-guide.md
+│   ├── rationale/          # 各 Skill 设计理念
+│   │   ├── summon-design-rationale.md
+│   │   ├── triple-check-design-rationale.md
+│   │   ├── plan-before-code-design-rationale.md
+│   │   └── kaihui-design-rationale.md
+│   ├── ai-dev-mental-model.md
+│   └── ai-dev-framework.md
 └── examples/               # 项目定制示例
 ```
 
