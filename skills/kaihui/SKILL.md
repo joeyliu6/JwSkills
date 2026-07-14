@@ -266,14 +266,12 @@ Kaihui 是其他 skill 的**上游编排器**：
 - **`/plan-before-code`**：作为"设计"步骤
 - **`/triple-check`**：作为"高质量实现"步骤
 - **`/code-review`**：作为"审查"步骤
-- **`/code-simplifier`**：作为"代码简化"步骤
 - **`/create-skill`**：保存新模板时，如果模板足够通用，可建议升级为独立 skill
 
 ### 技能名称精确匹配（⛔ 强制）
 
 用户在任务描述中提到的技能名，必须**精确匹配**项目 `.claude/skills/` 下的自定义技能：
 
-- 用户说 "code-simplifier" → 必须调用 `/code-simplifier`，**不能**替换为内置的 `/simplify`
 - 用户说 "code-review" → 必须调用 `/code-review`
 - 如果名称模糊（如"简化代码"），**优先匹配项目自定义技能**，其次才考虑内置技能
 - 如果无法确定，在 Step 0 展示 workflow 时明确标注将调用哪个技能，让用户确认
