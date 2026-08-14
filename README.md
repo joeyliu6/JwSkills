@@ -12,7 +12,7 @@
 
 **[`code-review`](skills/code-review/)**：系统化代码审查，6 步流程确保高信噪比——宁可漏报 3 个小毛病，不可误报 1 个不存在的 bug。
 
-**[`kaihui`](skills/kaihui/)**：工作流编排器。把"该从哪些角度、用什么工具、按什么顺序处理问题"的经验固化成可复用的 workflow 模板，逐步评判推进。
+**[`huxun`](skills/huxun/)**：多角色评审的默认玩法是独白制——每人各说一段，互相看不见彼此的产出，矛盾等到最后才被动浮现。互训让角色互相读产出、互相挑毛病，交锋完再裁决。
 
 ---
 
@@ -24,7 +24,7 @@
 | `triple-check` | `/triple-check <任务>` | 三遍自纠，高质量实现 · [设计理念](docs/rationale/triple-check-design-rationale.md) |
 | `code-review` | `/code-review` | 系统代码审查，高信噪比 PR review |
 | `plan-before-code` | `/plan-before-code <任务>` | 先设计后编码，三阶段审核 · [设计理念](docs/rationale/plan-before-code-design-rationale.md) |
-| `kaihui` | `/kaihui <任务>` | 工作流编排器，串联技能和视角 · [设计理念](docs/rationale/kaihui-design-rationale.md) |
+| `huxun` | `/huxun <方案>` | 多角色互相质询，暴露矛盾和盲区后逐条裁决 |
 | `init-skills` | `/init-skills` | 一键定制所有技能，扫描技术栈生成专属规则 |
 | `create-skill` | `/create-skill` | 引导式创建新 skill，采访 + 生成 + 哲学自检 |
 
@@ -76,8 +76,7 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 /triple-check 按设计稿实现         # 进入三轮审慎工作流
 /code-review                      # 系统代码审查
 /plan-before-code 新功能开发       # 先设计后编码
-/kaihui 帮我评审这个需求            # 工作流编排，多角度分析
-/kaihui --list                    # 查看所有 workflow 模板
+/huxun 这个上传队列方案            # 多角色互相质询，找盲区
 /init-skills                      # 一键定制所有技能
 /create-skill                     # 创建新 skill
 ```
@@ -92,7 +91,7 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 /summon → /plan-before-code → /triple-check → /code-review
 ```
 
-或者直接用 `/kaihui` 自动编排这条链条——它会根据任务类型选择合适的 workflow 模板。
+`/huxun` 可以插在链条的任意位置——方案定下来之前用它找盲区，实现完之后用它审视取舍。
 
 ---
 
@@ -113,7 +112,7 @@ JwSkills/
 │   ├── triple-check/
 │   ├── code-review/
 │   ├── plan-before-code/
-│   ├── kaihui/
+│   ├── huxun/
 │   ├── init-skills/
 │   └── create-skill/
 ├── docs/                   # 设计理念与参考文档
@@ -123,8 +122,7 @@ JwSkills/
 │   ├── rationale/          # 各 Skill 设计理念
 │   │   ├── summon-design-rationale.md
 │   │   ├── triple-check-design-rationale.md
-│   │   ├── plan-before-code-design-rationale.md
-│   │   └── kaihui-design-rationale.md
+│   │   └── plan-before-code-design-rationale.md
 │   ├── ai-dev-mental-model.md
 │   └── ai-dev-framework.md
 └── examples/               # 项目定制示例
