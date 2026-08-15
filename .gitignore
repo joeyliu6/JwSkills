@@ -8,5 +8,8 @@ Thumbs.db
 .env.local
 dist/
 build/
-.claude
-CLAUDE.md
+
+# .claude 下只忽略本机文件和工作副本，settings.json / hooks/ 要跟着仓库走
+.claude/settings.local.json
+.claude/.structure-state.json
+.claude/skills/
