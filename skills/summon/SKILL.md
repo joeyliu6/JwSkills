@@ -1,6 +1,6 @@
 ---
 name: summon
-description: 召唤词词典。/summon <需求> 自动匹配思想名词作为提示增强器，/summon 词1 词2 | 需求 手动指定，/summon --list 查看词典。
+description: 召唤词词典，用思想名词给 AI 定方向。用户提开放性的设计、审美或风格需求（"设计一个 X"、"别太花哨"、"有质感一点"）时主动匹配召唤词，不必等他敲命令。也可 /summon <需求> 显式调用，/summon 词1 词2 | 需求 手动指定，/summon --list 查词典。
 ---
 
 # /summon — 召唤词调度器

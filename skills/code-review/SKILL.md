@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: Systematic code review skill. Use when reviewing PRs, checking code quality, or auditing implementations. Focuses on critical issues with verified reasoning — not style nitpicks. Adapts to any tech stack.
+description: 系统代码审查，高信噪比——宁可漏报小毛病，不误报不存在的 bug。改完一批代码后、提 PR 前、或用户问"这样写有没有问题"时主动审查，不必等他敲命令。适配任意技术栈。
 ---
 
 # Code Review - 系统代码审查

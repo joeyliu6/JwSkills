@@ -1,6 +1,6 @@
 ---
 name: init-skills
-description: 一键定制所有 JwSkills 技能。扫描项目技术栈（package.json、CLAUDE.md 等），自动填充 triple-check 和 code-review 的项目专属规则。安装技能后运行一次即可。
+description: 一键定制 JwSkills 技能。扫描项目技术栈（package.json、CLAUDE.md 等），为 triple-check 和 code-review 生成项目专属规则。刚装完技能、或技术栈发生变更后主动运行一次，不必等用户开口。
 ---
 
 # Init Skills - 一键定制
