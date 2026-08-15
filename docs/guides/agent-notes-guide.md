@@ -252,11 +252,11 @@ Definition and basic provider packages remain separate.
 | i18n 三元组（`.md` / `.zh.md` / `.i18n.yaml`）+ sidecar 哈希 + append-only 冻结清单 + 5 个 verify 脚本 | 那是有 CI 和双语文档站才养得起的。小仓库抄过来就是没人跑的死代码 |
 | "每个非平凡改动都要写笔记" | 在 monorepo 成立。在技能仓库会淹没——大部分改动就是改几行 prompt |
 | 归档的密码学封存 | 解决的是"几百篇历史快照被误编辑"，几十篇的规模用不上 |
-| 技能之间互相链接 | 他们的 `dsh-code-review` 链到 `dsh-prose-standard`。**JwSkills 的技能是可单独复制的分发单元，必须自包含**——见 [CLAUDE.md](../../CLAUDE.md) 的技能编写原则。约束不同，这里必须反着来 |
+| 技能之间互相链接 | 他们的 `dsh-code-review` 链到 `dsh-prose-standard`。**Koda 的技能是可单独复制的分发单元，必须自包含**——见 [CLAUDE.md](../../CLAUDE.md) 的技能编写原则。约束不同，这里必须反着来 |
 
 ---
 
-## 对照 JwSkills
+## 对照 Koda
 
 现状：[docs/decisions.md](../decisions.md) 单文件，两张表格，共 5 行。
 差距不在规模，在三处结构性缺口：

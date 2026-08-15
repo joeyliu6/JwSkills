@@ -287,7 +287,7 @@ process.stdin.on('end', () => {
 ```
 
 `skillDrift` 只在项目同时有 `.claude/skills/` 和 `skills/` 两个目录时才做事
-（JwSkills 仓库自己的双目录场景）。普通项目里它静默跳过。
+（Koda 仓库自己的双目录场景）。普通项目里它静默跳过。
 
 顺带把 `.claude/.structure-state.json` 加进 `.gitignore`——它是本机状态，不该进版本控制。
 

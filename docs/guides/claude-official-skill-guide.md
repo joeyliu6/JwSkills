@@ -2,7 +2,7 @@
 
 > 来源：https://code.claude.com/docs/en/skills
 > 存档日期：2026-04-06
-> 用途：编写和维护 JwSkills 时的权威参考
+> 用途：编写和维护 Koda 时的权威参考
 
 ---
 

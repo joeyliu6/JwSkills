@@ -156,7 +156,7 @@ hook 的阈值。不建也能跑（走默认值），需要调时才建。
 装进项目的每个 skill 目录放一个 `.source`，以后才知道装的是哪一版：
 
 ```
-source: JwSkills
+source: Koda
 commit: {{装的时候的 git rev-parse --short HEAD}}
 installed: {{YYYY-MM-DD}}
 ```

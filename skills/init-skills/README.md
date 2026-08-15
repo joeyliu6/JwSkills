@@ -1,11 +1,11 @@
 # /init-skills — 一键定制
 
-> 扫描项目技术栈，自动生成技能专属规则。安装 JwSkills 后运行一次即可。
+> 扫描项目技术栈，自动生成技能专属规则。安装 Koda 后运行一次即可。
 
 ## 快速上手
 
 ```bash
-# 先安装 JwSkills 技能到你的项目
+# 先安装 Koda 技能到你的项目
 cp -r skills/* /path/to/your-project/.claude/skills/
 ```
 

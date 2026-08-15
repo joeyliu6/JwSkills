@@ -1,6 +1,8 @@
-# JwSkills
+# Koda
 
-一组 Claude Code skill，持续收录。
+一套装进项目就生效的 AI 协作基线：规则、技能、hook、docs 骨架。
+
+> 编程思想的汇总与沉淀，装进任何项目直接复用。
 
 ---
 
@@ -36,8 +38,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/joeyliu6/JwSkills.git
-cd JwSkills
+git clone https://github.com/joeyliu6/Koda.git
+cd Koda
 
 # 用户级安装：对所有 Claude Code 会话生效
 cp -r skills/* ~/.claude/skills/
@@ -116,7 +118,7 @@ cp -r skills/* /path/to/your-project/.claude/skills/
 ## 仓库结构
 
 ```
-JwSkills/
+Koda/
 ├── skills/                 # Claude Code skill 实现（持续新增）
 │   ├── summon/
 │   ├── triple-check/

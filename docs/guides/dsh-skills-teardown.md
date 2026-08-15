@@ -239,11 +239,11 @@ interface:
 
 ---
 
-## 八、对照 JwSkills
+## 八、对照 Koda
 
 按软件开发生命周期铺开看覆盖情况：
 
-| 阶段 | JwSkills | DeepSeek |
+| 阶段 | Koda | DeepSeek |
 |---|---|---|
 | 装规则 | `init-project` `init-skills` | 根 AGENTS.md（手工） |
 | 方案讨论 | **`huxun`** | 无对应物 |
@@ -267,6 +267,6 @@ interface:
 
 **3. 提交前验证。** 反制 AI 用"跑全套"表演尽责。
 
-反过来，JwSkills 有三个 DeepSeek 完全没有的东西：
+反过来，Koda 有三个 DeepSeek 完全没有的东西：
 `huxun`（多角色互相质询）、`summon`（审美方向）、`create-skill`（造技能的技能）。
 **这三个都不是"某个仓库的规矩"，是可迁移的方法**——恰恰是 DeepSeek 那套最缺的可分发性。

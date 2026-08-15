@@ -2,7 +2,10 @@
 
 ## 这是什么
 
-JwSkills 是一个 Claude Code skill 仓库。每个 skill 是一组 markdown 指令，扩展 AI 的能力。
+Koda 是一套装进项目就生效的 AI 协作基线：规则、技能、hook、docs 骨架。
+技能是其中一层，每个 skill 是一组 markdown 指令，扩展 AI 的能力。
+
+Koda 是纯造词，不承载含义——项目是什么由 README 和这份文档说清楚，不靠名字暗示。
 
 ## AI 工作方式
 
