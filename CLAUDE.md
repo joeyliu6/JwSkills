@@ -78,9 +78,12 @@ find .claude/skills -name README.md -delete   # README 只属于发布副本
 | 文件 | 内容 |
 |------|------|
 | `docs/decisions.md` | 决策与踩坑：项目为什么这么定 |
+| `docs/sop-roadmap.md` | SOP 分层结构与待补的两层（`slim` / `prose`，**尚未实现**） |
 | `docs/guides/skill-design-philosophy.md` | Skill 设计哲学：方向而非枷锁 |
 | `docs/guides/claude-md-writing-standard.md` | CLAUDE.md 审查标准：一句话判断每行是否值得写 |
 | `docs/guides/claude-official-skill-guide.md` | Claude 官方 Skill 编写指南（中文整理版） |
+| `docs/guides/agent-notes-guide.md` | DeepSeek Agent Notes 拆解：项目记忆怎么当工程资产治理 |
+| `docs/guides/dsh-skills-teardown.md` | DeepSeek 11 个技能拆解：文字质量、减法机制、验证证据链 |
 | `docs/rationale/summon-design-rationale.md` | Summon 设计理念 |
 | `docs/rationale/triple-check-design-rationale.md` | Triple-Check 设计理念 |
 | `docs/rationale/plan-before-code-design-rationale.md` | Plan Before Code 设计理念 |
